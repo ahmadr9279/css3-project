@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>title</title>
+  <style>
+    body {
+      height: 5px;
+      background: rgb(0, 75, 0);
+      background: linear-gradient(to bottom right, blue, black); /* */ 
+    
+    }
+
+    h1 {
+      text-align: center;
+      color: rgb(100, 100, 100);
+      text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkblue;
+    }
+
+    .circle {
+
+      position: relative;
+      -webkit-animation-name: color-changer;
+      -webkit-animation-duration: 2s;
+      -webkit-animation-iteration-count: infinite;
+      animation-name: color-changer;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+      -ms-transform: translate(50px, 100px);
+      -webkit-transform: translate(50px, 100px);
+      transform: translate(50px, 100px);
+    }
+
+    @-webkit-keyframes color-changer {
+      0% {
+        transform: rotate(20deg);
+        left: 0px;
+      }
+      25% {
+        transform: rotate(40deg);
+        left: 200px;
+      }
+      50% {
+        transform: rotate(60deg);
+        left: 500px
+      }
+      75% {
+        transform: rotate(80deg);
+        left: 700px;
+      }
+      100% {
+        transform: rotate(100deg);
+        left: 2000px;
+      }
+    }
+
+    .st-intro {
+      color: white;
+      text-align: center;
+    }
+
+    .nd-intro {
+      color: white;
+      text-align: center;
+    }
+
+    .blu-ray {
+      color: magenta;
+    }
+  </style>
+</head>
+
+<body>
+  <h1> The Fidget Spinner Journey</h1>
+  <div class ="st-intro">
+  <p> IN A WORLD FULL OF FIDGET SPINNERS YET TO BE SPUN, TWO MEN WILL EMBARK ON A JOURNEY TO SPIN EVERY FIDGET SPINNER IN THE WORLD
+  </p>
+  </div>
+  <div class ="circle"> <img src="59300da13919fe0ee3614de7.png" alt="Mountain View" width="250" height="250"> </div>
+  </div>
+  <div class="nd-intro">
+    <p>
+      <font size="6">Our story begins with 2 student back in 09’, Omark and Dahme, who are originally from Kansas. After the markets crashed they saw something others didn't. They knew bit-coin was going to explode.Five years later it did, and they pulled their money
+        out before the bubble burst. However, as this was happening they were not doing so well in <span class="ap.chem">AP chemistry</span>, so they devised a plan. They asked their teacher for an <span class="ap.chem">extra 20 points</span> every test
+        if they could spin every fidget spinner in the world. The teacher agreed, thinking they could never do it. So the two set out on a mission to spin every fidget spinner in the world. Join them on their exit journey.</font>
+    </p>
+  </div>
+  </div>
+  <div class="blu-ray">
+    <p>This is why we are asking everyone to subscribe to see it in Blu ray:</p>
+  Sign up <input type="email" name="email"><br>
+  <input class="blue-button" type="submit" value="Submit">
+  </div>
+  <audio controls>
+  <source src="audio.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+</body>
+
+</html>
